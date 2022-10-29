@@ -1,19 +1,14 @@
 <template>
   <div id="app">
-    <Navbar />
-    <main class="my-3">
-      <div class="container">
-        <router-view />
-      </div>
-    </main>
+    <Enregistrer />
   </div>
 </template>
 
 <script>
-import Navbar from "./components/Navbar";
+import Enregistrer from "./components/Enregistrer";
 export default {
   components: {
-    Navbar,
+    Enregistrer,
   },
 };
 </script>
